@@ -16,10 +16,7 @@ const Index = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center pt-4 pb-5">
-              <p className="lead">
-                Best programming and web development blogs and tutorials on
-                React Node NextJs and JavaScript
-              </p>
+              <p className="lead">Blogging Website</p>
             </div>
           </div>
         </div>
@@ -32,20 +29,21 @@ const Index = () => {
                   style={{
                     backgroundImage:
                       "url(" +
-                      "https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg" +
+                      "https://www.pexels.com/photo/charming-hovawart-resting-on-crumpled-plaid-near-laptop-in-bedroom-4297825/" +
                       ")",
                   }}
                 >
-                  <h2 className="text-shadow text-center h1">React</h2>
+                  <h2 className="text-shadow text-center h1">Keep Cool</h2>
                 </div>
                 <div className="back text-center">
                   <Link href="/categories/react">
                     <a>
-                      <h3 className="h1">React Js</h3>
+                      <h3 className="h1">Keep blogging6</h3>
                     </a>
                   </Link>
                   <p className="lead">
-                    The world's most popular frontend web development library
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor.
                   </p>
                 </div>
               </div>
@@ -58,22 +56,19 @@ const Index = () => {
                   style={{
                     backgroundImage:
                       "url(" +
-                      "https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg" +
+                      "https://www.pexels.com/photo/woman-in-white-dress-sitting-on-mans-lap-7537816/" +
                       ")",
                   }}
                 >
-                  <h2 className="text-shadow text-center h1">Node</h2>
+                  <h2 className="text-shadow text-center h1">Keep Visiting</h2>
                 </div>
                 <div className="back text-center">
                   <Link href="/categories/node">
                     <a>
-                      <h3 className="h1">Node Js</h3>
+                      <h3 className="h1">Keep posting</h3>
                     </a>
                   </Link>
-                  <p className="lead">
-                    The worlds most popular backend development tool for
-                    JavaScript Ninjas
-                  </p>
+                  <p className="lead"></p>
                 </div>
               </div>
             </div>
@@ -85,7 +80,7 @@ const Index = () => {
                   style={{
                     backgroundImage:
                       "url(" +
-                      "https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg" +
+                      "https://www.pexels.com/photo/woman-in-black-skirt-and-white-shirt-standing-beside-woman-in-black-dress-7391051/" +
                       ")",
                   }}
                 >
@@ -98,7 +93,8 @@ const Index = () => {
                     </a>
                   </Link>
                   <p className="lead">
-                    A Production ready web framework for building SEO React apps
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor.
                   </p>
                 </div>
               </div>
