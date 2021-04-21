@@ -1,5 +1,5 @@
-import getConfig from "next/config";
-const { publicRuntimeConfig } = getConfig();
+// import getConfig from "next/config";
+// const { publicRuntimeConfig } = getConfig();
 
 export const API = "https://blogwebsiteseo.herokuapp.com/api";
 
