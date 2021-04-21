@@ -2,9 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "../../components/Layout";
 import { singleCategory } from "../../actions/category";
-import { API, DOMAIN, APP_NAME, FB_APP_ID } from "../../config";
-import renderHTML from "react-render-html";
-import moment from "moment";
+import { DOMAIN, APP_NAME } from "../../config";
+// import renderHTML from "react-render-html";
+// import moment from "moment";
 import Card from "../../components/blog/Card";
 
 const Category = ({ blogs, query }) => {
@@ -37,7 +37,6 @@ const Category = ({ blogs, query }) => {
         content={`${DOMAIN}/static/images/seoblog.jpg`}
       />
       <meta property="og:image:type" content="image/jpg" />
-      <meta property="fb:app_id" content={`${FB_APP_ID}`} />
     </Head>
   );
 

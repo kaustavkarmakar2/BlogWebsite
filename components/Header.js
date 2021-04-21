@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Router from "next/router";
-import NProgress from "nprogress";
+// import NProgress from "nprogress";
 import { APP_NAME } from "../config";
 import { signout, isAuth } from "../actions/auth";
 import {
@@ -12,10 +12,10 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
 } from "reactstrap";
 // import '.././node_modules/nprogress/nprogress.css';
 import Search from "./blog/Search";

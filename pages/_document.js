@@ -1,24 +1,11 @@
-import Document, { Html, Main, NextScript } from "next/document";
-import Head from "next/head";
-import getConfig from "next/config";
-// import './static/css';
-const { publicRuntimeConfig } = getConfig();
+import Document, { Html, Main, Head, NextScript } from "next/document";
+// import  from "next/head";
+// import getConfig from "next/config";
+// // import './static/css';
+// const { publicRuntimeConfig } = getConfig();
 
 class MyDocument extends Document {
-  setGoogleTags() {
-    if (publicRuntimeConfig.PRODUCTION) {
-      return {
-        __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-147955896-1');
-        `,
-      };
-    }
-  }
-
+  
   render() {
     return (
       <Html lang="en">
@@ -33,9 +20,7 @@ class MyDocument extends Document {
             href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
           />
           <link rel="stylesheet" href="./static/css/styles.css" />
-          <React.Fragment>
-            <script dangerouslySetInnerHTML={this.setGoogleTags()} />
-          </React.Fragment>
+          
         </Head>
         <body>
           <Main />
