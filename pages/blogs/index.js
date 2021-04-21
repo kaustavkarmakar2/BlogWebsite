@@ -19,19 +19,10 @@ const Blogs = ({
   const head = () => (
     <Head>
       <title>Programming blogs | {APP_NAME}</title>
-      <meta
-        name="description"
-        content="Programming blogs and tutorials on react node next vue php laravel and web developoment"
-      />
+      <meta name="description" content="BlogWebsite" />
       <link rel="canonical" href={`${DOMAIN}${router.pathname}`} />
-      <meta
-        property="og:title"
-        content={`Latest web developoment tutorials | ${APP_NAME}`}
-      />
-      <meta
-        property="og:description"
-        content="Programming blogs and tutorials on react node next vue php laravel and web developoment"
-      />
+      <meta property="og:title" content={`BlogWesite | ${APP_NAME}`} />
+      <meta property="og:description" content="BlogWebsite" />
       <meta property="og:type" content="webiste" />
       <meta property="og:url" content={`${DOMAIN}${router.pathname}`} />
       <meta property="og:site_name" content={`${APP_NAME}`} />
