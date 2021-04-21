@@ -84,12 +84,12 @@ const Index = () => {
                       ")",
                   }}
                 >
-                  <h2 className="text-shadow text-center h1">Next</h2>
+                  <h2 className="text-shadow text-center h1">Keep exporing</h2>
                 </div>
                 <div className="back text-center">
                   <Link href="/categories/nextjs">
                     <a>
-                      <h3 className="h1">Next Js</h3>
+                      <h3 className="h1">Keep Visiting</h3>
                     </a>
                   </Link>
                   <p className="lead">
